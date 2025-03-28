@@ -3,4 +3,11 @@ project(POO)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(POO main.cpp)
+src/main.cpp
+src/Usuario.cpp
+src/Mascota.cpp
+src/Habilidad.cpp
+
+add_executable(POO main.cpp
+        Usuario.cpp
+        Usuario.h)
